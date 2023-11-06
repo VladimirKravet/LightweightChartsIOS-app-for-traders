@@ -7,18 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7C715C62AE4455A007533B5 /* LightweightCharts in Frameworks */ = {isa = PBXBuildFile; productRef = A7C715C52AE4455A007533B5 /* LightweightCharts */; };
+		A7C715C82AE5206B007533B5 /* GroupCurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C715C72AE5206A007533B5 /* GroupCurrencyView.swift */; };
+		A7C715CB2AE52118007533B5 /* TradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C715CA2AE52118007533B5 /* TradeViewModel.swift */; };
+		A7C7D83A2AE1C3E800F24374 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7D8392AE1C3E800F24374 /* RootView.swift */; };
+		A7C7D83D2AE1C46700F24374 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7D83C2AE1C46700F24374 /* RootCoordinator.swift */; };
+		A7C7D8402AE1C49600F24374 /* RootViewsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7D83F2AE1C49600F24374 /* RootViewsEnum.swift */; };
+		A7C7D8422AE1C61000F24374 /* TradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7D8412AE1C61000F24374 /* TradeView.swift */; };
+		A7C7D8442AE1C64C00F24374 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7D8432AE1C64C00F24374 /* CustomTabBar.swift */; };
 		A7F0B6F32AE16E8F009E21E6 /* TestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F0B6F22AE16E8F009E21E6 /* TestProjectApp.swift */; };
 		A7F0B6F52AE16E8F009E21E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F0B6F42AE16E8F009E21E6 /* ContentView.swift */; };
 		A7F0B6F72AE16E90009E21E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F0B6F62AE16E90009E21E6 /* Assets.xcassets */; };
 		A7F0B6FA2AE16E90009E21E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F0B6F92AE16E90009E21E6 /* Preview Assets.xcassets */; };
+		A7F0B7012AE17055009E21E6 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F0B7002AE17054009E21E6 /* LaunchScreenView.swift */; };
+		A7F0B7302AE1707F009E21E6 /* AdaptiveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F0B7062AE1707E009E21E6 /* AdaptiveManager.swift */; };
+		A7F0B74A2AE1707F009E21E6 /* ColorsExtansions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F0B7262AE1707E009E21E6 /* ColorsExtansions.swift */; };
+		A7F0B74F2AE1707F009E21E6 /* AdaptiveUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F0B72E2AE1707E009E21E6 /* AdaptiveUI.swift */; };
+		A7F0B7532AE183C5009E21E6 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F0B7522AE183C5009E21E6 /* CustomAlertView.swift */; };
+		A7FCF6442AE525D800DEE3B9 /* TradeRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCF6432AE525D800DEE3B9 /* TradeRootView.swift */; };
+		A7FCF6462AE5263000DEE3B9 /* TradeViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCF6452AE5263000DEE3B9 /* TradeViewCoordinator.swift */; };
+		A7FCF6482AE5268700DEE3B9 /* TradeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCF6472AE5268700DEE3B9 /* TradeEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7C715C72AE5206A007533B5 /* GroupCurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCurrencyView.swift; sourceTree = "<group>"; };
+		A7C715CA2AE52118007533B5 /* TradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewModel.swift; sourceTree = "<group>"; };
+		A7C7D8392AE1C3E800F24374 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A7C7D83C2AE1C46700F24374 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		A7C7D83F2AE1C49600F24374 /* RootViewsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewsEnum.swift; sourceTree = "<group>"; };
+		A7C7D8412AE1C61000F24374 /* TradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeView.swift; sourceTree = "<group>"; };
+		A7C7D8432AE1C64C00F24374 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		A7F0B6EF2AE16E8F009E21E6 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F0B6F22AE16E8F009E21E6 /* TestProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectApp.swift; sourceTree = "<group>"; };
 		A7F0B6F42AE16E8F009E21E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A7F0B6F62AE16E90009E21E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7F0B6F92AE16E90009E21E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7F0B7002AE17054009E21E6 /* LaunchScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		A7F0B7062AE1707E009E21E6 /* AdaptiveManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdaptiveManager.swift; sourceTree = "<group>"; };
+		A7F0B7262AE1707E009E21E6 /* ColorsExtansions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsExtansions.swift; sourceTree = "<group>"; };
+		A7F0B72E2AE1707E009E21E6 /* AdaptiveUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdaptiveUI.swift; sourceTree = "<group>"; };
+		A7F0B7522AE183C5009E21E6 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		A7FCF6432AE525D800DEE3B9 /* TradeRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRootView.swift; sourceTree = "<group>"; };
+		A7FCF6452AE5263000DEE3B9 /* TradeViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewCoordinator.swift; sourceTree = "<group>"; };
+		A7FCF6472AE5268700DEE3B9 /* TradeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +57,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C715C62AE4455A007533B5 /* LightweightCharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7C715C92AE5210B007533B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A7C715CA2AE52118007533B5 /* TradeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A7C7D8382AE1C3DF00F24374 /* RootView */ = {
+			isa = PBXGroup;
+			children = (
+				A7C7D8392AE1C3E800F24374 /* RootView.swift */,
+				A7C7D8432AE1C64C00F24374 /* CustomTabBar.swift */,
+			);
+			path = RootView;
+			sourceTree = "<group>";
+		};
+		A7C7D83B2AE1C45700F24374 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A7C7D83C2AE1C46700F24374 /* RootCoordinator.swift */,
+				A7FCF6452AE5263000DEE3B9 /* TradeViewCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		A7C7D83E2AE1C48800F24374 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				A7C7D83F2AE1C49600F24374 /* RootViewsEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		A7F0B6E62AE16E8F009E21E6 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +117,14 @@
 		A7F0B6F12AE16E8F009E21E6 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				A7C715C92AE5210B007533B5 /* ViewModel */,
+				A7C7D83B2AE1C45700F24374 /* Navigation */,
+				A7F0B7542AE1C161009E21E6 /* Model */,
+				A7F0B7502AE183A3009E21E6 /* View */,
+				A7F0B7022AE1707E009E21E6 /* Helpers */,
 				A7F0B6F22AE16E8F009E21E6 /* TestProjectApp.swift */,
 				A7F0B6F42AE16E8F009E21E6 /* ContentView.swift */,
+				A7F0B7002AE17054009E21E6 /* LaunchScreenView.swift */,
 				A7F0B6F62AE16E90009E21E6 /* Assets.xcassets */,
 				A7F0B6F82AE16E90009E21E6 /* Preview Content */,
 			);
@@ -65,6 +137,61 @@
 				A7F0B6F92AE16E90009E21E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7F0B7022AE1707E009E21E6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A7C7D83E2AE1C48800F24374 /* Enums */,
+				A7F0B7052AE1707E009E21E6 /* Managers */,
+				A7F0B7252AE1707E009E21E6 /* Extansions */,
+				A7F0B72E2AE1707E009E21E6 /* AdaptiveUI.swift */,
+				A7FCF6472AE5268700DEE3B9 /* TradeEnum.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A7F0B7052AE1707E009E21E6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A7F0B7062AE1707E009E21E6 /* AdaptiveManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A7F0B7252AE1707E009E21E6 /* Extansions */ = {
+			isa = PBXGroup;
+			children = (
+				A7F0B7262AE1707E009E21E6 /* ColorsExtansions.swift */,
+			);
+			path = Extansions;
+			sourceTree = "<group>";
+		};
+		A7F0B7502AE183A3009E21E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7C7D8382AE1C3DF00F24374 /* RootView */,
+				A7F0B7512AE183A8009E21E6 /* AlertView */,
+				A7C7D8412AE1C61000F24374 /* TradeView.swift */,
+				A7C715C72AE5206A007533B5 /* GroupCurrencyView.swift */,
+				A7FCF6432AE525D800DEE3B9 /* TradeRootView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7F0B7512AE183A8009E21E6 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				A7F0B7522AE183C5009E21E6 /* CustomAlertView.swift */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		A7F0B7542AE1C161009E21E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +210,9 @@
 			dependencies = (
 			);
 			name = TestProject;
+			packageProductDependencies = (
+				A7C715C52AE4455A007533B5 /* LightweightCharts */,
+			);
 			productName = TestProject;
 			productReference = A7F0B6EF2AE16E8F009E21E6 /* TestProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +241,9 @@
 				Base,
 			);
 			mainGroup = A7F0B6E62AE16E8F009E21E6;
+			packageReferences = (
+				A7C715C42AE4455A007533B5 /* XCRemoteSwiftPackageReference "LightweightChartsIOS" */,
+			);
 			productRefGroup = A7F0B6F02AE16E8F009E21E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +270,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C7D83A2AE1C3E800F24374 /* RootView.swift in Sources */,
+				A7FCF6482AE5268700DEE3B9 /* TradeEnum.swift in Sources */,
 				A7F0B6F52AE16E8F009E21E6 /* ContentView.swift in Sources */,
+				A7F0B7532AE183C5009E21E6 /* CustomAlertView.swift in Sources */,
+				A7C715CB2AE52118007533B5 /* TradeViewModel.swift in Sources */,
+				A7FCF6462AE5263000DEE3B9 /* TradeViewCoordinator.swift in Sources */,
+				A7F0B74F2AE1707F009E21E6 /* AdaptiveUI.swift in Sources */,
+				A7FCF6442AE525D800DEE3B9 /* TradeRootView.swift in Sources */,
+				A7C7D8442AE1C64C00F24374 /* CustomTabBar.swift in Sources */,
+				A7F0B7302AE1707F009E21E6 /* AdaptiveManager.swift in Sources */,
+				A7C7D8402AE1C49600F24374 /* RootViewsEnum.swift in Sources */,
+				A7F0B74A2AE1707F009E21E6 /* ColorsExtansions.swift in Sources */,
 				A7F0B6F32AE16E8F009E21E6 /* TestProjectApp.swift in Sources */,
+				A7C7D8422AE1C61000F24374 /* TradeView.swift in Sources */,
+				A7C7D83D2AE1C46700F24374 /* RootCoordinator.swift in Sources */,
+				A7C715C82AE5206B007533B5 /* GroupCurrencyView.swift in Sources */,
+				A7F0B7012AE17055009E21E6 /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +421,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +450,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +487,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A7C715C42AE4455A007533B5 /* XCRemoteSwiftPackageReference "LightweightChartsIOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradingview/LightweightChartsIOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7C715C52AE4455A007533B5 /* LightweightCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7C715C42AE4455A007533B5 /* XCRemoteSwiftPackageReference "LightweightChartsIOS" */;
+			productName = LightweightCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A7F0B6E72AE16E8F009E21E6 /* Project object */;
 }

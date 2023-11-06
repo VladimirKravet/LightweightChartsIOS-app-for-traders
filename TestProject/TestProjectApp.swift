@@ -9,9 +9,23 @@ import SwiftUI
 
 @main
 struct TestProjectApp: App {
+    @AppStorage("isAgree") var isAgree: Bool = false
+    
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack{
+                if isAgree {
+                    RootView()
+                } else {
+                    LaunchScreenView(isAgree: $isAgree)
+                }
+            }
+            .onDisappear{
+                isAgree = false
+            }
+
         }
     }
 }
+
